@@ -1,0 +1,21 @@
+{
+  "plugins": ["stylelint-use-logical-spec"],
+  "overrides": [
+    {
+      "files": ["**/*.scss"],
+      "customSyntax": "postcss-scss",
+      "rules": {
+        "max-nesting-depth": null,
+        "selector-max-compound-selectors": null
+      }
+    },
+    {
+      "files": ["**/*.css"],
+      "rules": {
+      }
+    }
+  ],
+  "rules": {
+    "liberty/use-logical-spec": ["always", { "except": ["float"] }]
+  }
+}

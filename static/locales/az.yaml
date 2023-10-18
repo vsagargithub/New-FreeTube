@@ -1,0 +1,173 @@
+# Put the name of your locale in the same language
+Locale Name: 'Azərbaycanca'
+FreeTube: 'FreeTube'
+# Currently on Subscriptions, Playlists, and History
+'This part of the app is not ready yet. Come back later when progress has been made.': >-
+  Tətbiqin bu hissəsi hələ hazır deyil.İnkişaf bitdikdən sonra geri qayıdın.
+
+# Webkit Menu Bar
+File: 'Fayl'
+Quit: 'Çıxış'
+Edit: 'Redaktə Edin'
+Undo: 'Geri alın'
+Redo: 'Təkrarla'
+Cut: 'Kəsin'
+Copy: 'Kopyalayın'
+Paste: 'Yapışdır'
+Delete: 'Silin'
+Select all: 'Hamısını seçin'
+Reload: 'Yenidən Yükləyin'
+Force Reload: 'Zorla Yenidən Yükləmə'
+Toggle Developer Tools: 'Tərtibatçı Seçimlərini Aç/Bağla'
+Actual size: 'Həqiqi Ölçü'
+Zoom in: 'Yaxınlaşdırın'
+Zoom out: 'Uzaqlaşdırın'
+Toggle fullscreen: 'Tam ekranda göstər'
+Window: 'Pəncərə'
+Minimize: 'Kiçildin'
+Close: 'Bağlayın'
+Back: 'Geri'
+Forward: 'İrəli'
+Open New Window: 'Yeni Pəncərə Açın'
+
+Version {versionNumber} is now available!  Click for more details: '{versionNumber}
+  versiyası artıq mövcuddur! Ətraflı məlumat üçün klikləyin'
+Download From Site: 'Saytdan Endirin'
+A new blog is now available, {blogTitle}. Click to view more: 'İndi yeni blog mövcuddur,
+  {blogTitle}. Daha çoxuna baxmaq üçün klikləyin'
+Are you sure you want to open this link?: 'Bu linki açmaq istədiyinizə əminsiniz?'
+
+# Search Bar
+Search / Go to URL: 'Axtarış / URL-ə Keçin'
+Search Bar:
+  Clear Input: 'Girişi Təmizləyin'
+  # In Filter Button
+Search Filters:
+  Search Filters: 'Axtarış Filtrləri'
+  Sort By:
+    Sort By: 'Sırala'
+    Most Relevant: 'Ən Münasib'
+    Rating: 'Qiymətləndirmə'
+    Upload Date: 'Yükləmə Tarixi'
+    View Count: 'Baxış Sayı'
+  Time:
+    Time: 'Vaxt'
+    Any Time: 'İstənilən Vaxt'
+    Last Hour: 'Son Saat'
+    Today: 'Bu gün'
+    This Week: 'Bu Həftə'
+    This Month: 'Bu Ay'
+    This Year: 'Bu İl'
+  Type:
+    Type: 'Növ'
+    All Types: 'Bütün Növlər'
+    Videos: 'Videolar'
+    Channels: 'Kanallar'
+    #& Playlists
+  Duration:
+    Duration: 'Müddət'
+    All Durations: 'Bütün Müddətlər'
+    Short (< 4 minutes): 'Qısa (<4 dəqiqədən az)'
+    Long (> 20 minutes): 'Uzun (> 20 dəqiqədən çox)'
+  # On Search Page
+  Search Results: 'Axtarış Nəticələri'
+  Fetching results. Please wait: 'Nəticələr alınır. Zəhmət olmasa, gözləyin'
+  Fetch more results: 'Daha çox nəticə əldə edin'
+  There are no more results for this search: 'Bu axtarış üçün başqa nəticə yoxdur'
+# Sidebar
+Subscriptions:
+    # On Subscriptions Page
+  Subscriptions: 'Abunəliklər'
+  Latest Subscriptions: 'Ən Son Abunəliklər'
+  This profile has a large number of subscriptions. Forcing RSS to avoid rate limiting: 'Bu
+    profilin çoxlu sayda abunəsi var.Sürət məhdudiyyətinin qarşısını almaq üçün RSS-i
+    zorlanır'
+  'Your Subscription list is currently empty. Start adding subscriptions to see them here.': 'Abunəlik
+    siyahınız hazırda boşdur. Abunəlikləri burada görmək üçün əlavə etməyə başlayın.'
+  'Getting Subscriptions. Please wait.': 'Abunəliklərin əldə edilməsi. Zəhmət olmasa,
+    gözləyin.'
+  Refresh Subscriptions: 'Abunəlikləri Yeniləyin'
+  Load More Videos: 'Daha çox Video Yükləyin'
+  Error Channels: Xətalı Kanallar
+More: 'Daha Çox'
+Trending:
+  Trending: 'Trenddədir'
+  Default: 'Defolt'
+  Music: 'Musiqi'
+  Gaming: 'Oyun'
+  Movies: 'Filmlər'
+  Trending Tabs: 'Trend Tablar'
+Most Popular: 'Ən Populyar'
+Playlists: 'Pleylistlər'
+User Playlists:
+  Your Playlists: 'Pleylistləriniz'
+  Playlist Message: 'Bu səhifə tam işləyən pleylistləri əks etdirmir. O, yalnız saxladığınız
+    və ya sevimli seçdiyiniz videoları sadalayır. İş başa çatdıqda, hazırda buradakı
+    bütün videolar "Sevimlilər" pleylistinə köçürüləcək.'
+  Your saved videos are empty. Click on the save button on the corner of a video to have it listed here: 'Saxladığınız
+    videolarınız boşdur. Videonun burada qeyd edilməsi üçün onun küncündəki saxlayın
+    düyməsini klikləyin'
+  Empty Search Message: 'Bu pleylistdə axtarışınıza uyğun video yoxdur'
+  Search bar placeholder: 'Pleylistdə Axtarın'
+History:
+  # On History Page
+  History: 'Tarixçə'
+  Watch History: 'Baxış Tarixçəsi'
+  Your history list is currently empty.: 'Tarixçə siyahınız hazırda boşdur.'
+  Empty Search Message: 'Tarixçənizdə axtarışınıza uyğun video yoxdur'
+  Search bar placeholder: "Tarixçədə Axtarın"
+Settings:
+  # On Settings Page
+  Settings: 'Tənzimləmələr'
+  The app needs to restart for changes to take effect. Restart and apply change?: 'Dəyişikliklərin
+    qüvvəyə minməsi üçün tətbiq yenidən başladılmalıdır. Yenidən başladılsın və dəyişiklik
+    tətbiq edilsin?'
+  General Settings:
+    General Settings: 'Ümumi Tənzimləmələr'
+    Check for Updates: 'Yeniləmələri Yoxlayın'
+    Check for Latest Blog Posts: 'Ən Son Bloq Yazılarını Yoxlayın'
+    Fallback to Non-Preferred Backend on Failure: 'Uğursuzluqda Üstünlük Verilməyən
+      Arxa Uca Qayıdış'
+    Enable Search Suggestions: 'Axtarış Təkliflərini Aktivləşdirin'
+    Default Landing Page: 'Defolt Açılış Səhifəsi'
+    Locale Preference: 'Yerli Seçim'
+    System Default: 'Sistem Defoltu'
+    Preferred API Backend:
+      Preferred API Backend: 'Tərcih edilən API Arxa Ucu'
+      Local API: 'Yerli API'
+      Invidious API: 'Invidious API'
+    Video View Type:
+      Video View Type: 'Video Baxış Növü'
+      Grid: 'Izgara'
+      List: 'Siyahı'
+    Thumbnail Preference:
+      Thumbnail Preference: 'Miniatürə Üstünlük Verilir'
+      Default: 'Defolt'
+      Beginning: 'Başlanğıc'
+      Middle: 'Orta'
+      End: 'Son'
+    Current Invidious Instance: 'Cari Invidious Nümunəsi'
+    The currently set default instance is {instance}: 'Hazırda təyin edilmiş standart
+      nümunə {instance}-dır'
+    No default instance has been set: 'Defolt nümunə təyin edilməyib'
+    Current instance will be randomized on startup: 'Cari nümunə başlanğıcda təsadüfi
+      olacaq'
+    Set Current Instance as Default: 'Cari Nümunəni Defolt Olaraq Təyin edin'
+    Clear Default Instance: 'Defolt Nümunəni Sil'
+    View all Invidious instance information: 'Bütün Invidious instansiya məlumatlarına
+      baxın'
+    Region for Trending: 'Trendlər Üçün Region'
+    #! List countries
+    External Link Handling:
+      External Link Handling: 'Xarici Keçid Hazırlama'
+      Open Link: 'Linki Açın'
+  Theme Settings: {}
+  Player Settings:
+    Screenshot: {}
+  SponsorBlock Settings: {}
+Channel:
+  Videos: {}
+  Playlists: {}
+Video:
+  External Player: {}
+Tooltips: {}

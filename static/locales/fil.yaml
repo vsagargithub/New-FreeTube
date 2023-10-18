@@ -1,0 +1,91 @@
+# Put the name of your locale in the same language
+Locale Name: 'Filipino'
+FreeTube: 'FreeTube'
+# Currently on Subscriptions, Playlists, and History
+'This part of the app is not ready yet. Come back later when progress has been made.': >-
+  Ang bahagi ito ng aplikasyon ay hindi pa handa. Bumalik po kayo mamaya kapag nag-unsad
+  na.
+
+# Webkit Menu Bar
+File: 'File'
+Quit: 'Umalis'
+Edit: 'I-edit'
+Undo: 'Pawalang-bisa'
+Redo: 'Gawing Muli'
+Cut: 'Putolin'
+Copy: 'Kopya'
+Paste: 'I-paste'
+Delete: 'Alisin'
+Select all: 'Piliin lahat'
+Reload: 'I-reload'
+Force Reload: 'Puwersang i-reload'
+Toggle Developer Tools: 'I-toggle ang mga Developer Tools'
+Actual size: 'Totoong sukat'
+Zoom in: 'Palakihin'
+Zoom out: 'Paliitin'
+Toggle fullscreen: 'I-toogle ang fullscreen'
+Window: 'Ang window'
+Minimize: 'I-minimize'
+Close: 'Isara'
+Back: 'Bumalik'
+Forward: 'Pagsulong'
+
+# Search Bar
+Search / Go to URL: 'Maghanap / Pumunta sa URL'
+  # In Filter Button
+Search Filters:
+  Search Filters: 'Mga filter ng paghahanap'
+  Sort By:
+    Sort By: 'Pag-uri-uriin ayon'
+    Most Relevant: 'Pinakanakakaugnay'
+    Rating: 'Mga Marka'
+    Upload Date: 'Petsa ng pag-upload'
+    View Count: 'Bilang ng pagtingin'
+  Time:
+    Time: 'Oras'
+    Any Time: 'Kahit anuman oras'
+    Last Hour: 'Nakaraang Oras'
+    Today: 'Ngayon'
+    This Week: 'Ngayong linggo'
+    This Month: 'Ngayong buwan'
+    This Year: 'Ngayong taon'
+  Type:
+    Type: 'Uri'
+    All Types: 'Lahat ng mga uri'
+    Videos: 'Mga video'
+    Channels: 'Mga channel'
+    #& Playlists
+  Duration:
+    Duration: 'Tagal'
+    All Durations: 'Lahat ng mga durasyon'
+    Short (< 4 minutes): 'Maikli (< 4 minuto)'
+    Long (> 20 minutes): 'Mahaba (> 20 minuto)'
+  # On Search Page
+  Search Results: 'Mga Resulta'
+  Fetching results. Please wait: 'Sinusundo ang mga resulta. Maghintay lang po'
+  Fetch more results: 'Magsundo ng marami pang resulta'
+# Sidebar
+Subscriptions:
+    # On Subscriptions Page
+  Subscriptions: 'Mga Suskripsyon'
+  Latest Subscriptions: 'Mga Pinakabagong Suskripsyon'
+  'Your Subscription list is currently empty. Start adding subscriptions to see them here.': 'Ang
+    iyong listahan ng Suskripsyon ay kasalukuyang walang laman. Simulang magdagdag
+    ng mga suskripsyon upang makita ang mga ito dito.'
+  'Getting Subscriptions. Please wait.': 'Kinukuha ang mga suskripsyon. Maghintay
+    lang po.'
+  Refresh Subscriptions: 'I-refresh ang mga Suskripsyon'
+Trending:
+  Trending: 'Nagte-trend'
+Most Popular: 'Pinakasikat'
+Settings:
+  # On Settings Page
+  General Settings: {}
+  Theme Settings: {}
+  Player Settings: {}
+Channel:
+  Videos: {}
+  Playlists: {}
+Download From Site: I-download mula sa website
+Open New Window: buksan ang bagong window
+New Window: bagong window

@@ -1,0 +1,62 @@
+.playListThumbnail {
+  inline-size: 100%;
+}
+
+.playlistThumbnail img {
+  cursor: pointer;
+  inline-size: 100%;
+
+  @media only screen and (max-width: 800px) {
+    display: none;
+  }
+}
+
+.playlistStats {
+  font-size: 15px;
+}
+
+.playlistStats p {
+  color: var(--secondary-text-color);
+  margin: 0;
+}
+
+.playlistTitle {
+  margin-block-end: 0.1em;
+}
+
+.playlistDescription {
+  max-block-size: 20vh;
+  overflow-y: auto;
+  white-space: break-spaces;
+
+  @media only screen and (max-width: 500px) {
+    max-block-size: 10vh;
+  }
+}
+
+.playlistChannel {
+  align-items: center;
+  color: inherit;
+  display: flex;
+  gap: 8px;
+  block-size: 40px;
+  text-decoration: none;
+}
+
+.channelThumbnail {
+  border-radius: 200px;
+  float: var(--float-left-ltr-rtl-value);
+  inline-size: 40px;
+}
+
+.channelName {
+  font-size: 15px;
+  margin: 0;
+  word-break: break-all;
+}
+
+.channelShareWrapper {
+  column-gap: 8px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+}

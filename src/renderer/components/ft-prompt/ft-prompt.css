@@ -1,0 +1,37 @@
+.prompt {
+  position: fixed;
+  inset-block-start: 0px;
+  inset-inline-start: 0px;
+  inline-size: 100%;
+  block-size: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+  padding: 15px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.promptCard {
+  overflow-y: scroll;
+}
+
+.promptCard.autosize {
+  box-sizing: border-box;
+  margin-block: 0;
+  margin-inline: auto;
+  max-inline-size: 95%;
+}
+
+.promptCard:not(.autosize) {
+  inline-size: 95%;
+  margin: 0;
+  position: absolute;
+  inset-inline-start: 2.5%;
+  box-sizing: border-box;
+}
+
+.center {
+  text-align: center;
+}

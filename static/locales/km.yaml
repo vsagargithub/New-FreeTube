@@ -1,0 +1,20 @@
+# Put the name of your locale in the same language
+Locale Name: 'ខ្មែរ'
+FreeTube: 'ខ្មែរ'
+# Currently on Subscriptions, Playlists, and History
+'This part of the app is not ready yet. Come back later when progress has been made.': >-
+  ខ្មែរ
+
+# Webkit Menu Bar
+File: 'ខ្មែរ'
+Quit: 'ខ្មែរ'
+Edit: 'ខ្មែរ'
+Undo: 'ខ្មែរ'
+Search Filters: {}
+Settings:
+  # On Settings Page
+  General Settings: {}
+  Theme Settings: {}
+Channel:
+  Videos: {}
+Tooltips: {}

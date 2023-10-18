@@ -1,0 +1,64 @@
+@font-face {
+  font-family: Roboto;
+  src: url(assets/font/Roboto-Regular.ttf);
+}
+
+#app {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Roboto', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  block-size: 100%;
+}
+
+.routerView {
+  flex: 1 1 0%;
+  margin-block: 18px;
+  margin-inline: 10px;
+}
+
+.banner {
+  inline-size: 85%;
+  margin-block: 20px;
+  margin-inline: auto;
+}
+
+.banner-wrapper {
+  margin-block: 0;
+  margin-inline: 10px;
+}
+
+.flexBox {
+  display: block;
+  user-select: unset;
+  -webkit-user-select: unset;
+}
+
+#changeLogText {
+  overflow-y: scroll;
+  block-size: 40vh;
+  display: block
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .15s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+@media only screen and (max-width: 680px) {
+  .routerView {
+    margin-block: 68px;
+    margin-inline: 8px;
+  }
+
+  .banner {
+    inline-size: 80%;
+    margin-block-start: 20px;
+  }
+
+  .flexBox {
+    margin-block-start: 60px;
+    margin-block-end: -75px;
+  }
+}

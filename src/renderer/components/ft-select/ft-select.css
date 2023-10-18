@@ -1,0 +1,169 @@
+/*
+    This file is part of FreeTube.
+
+    FreeTube is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    FreeTube is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with FreeTube.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+/*
+* Credit goes to pavelvaravko for making this css.
+* https://codepen.io/pavelvaravko/pen/qjojOr
+*/
+
+/* select starting stylings ------------------------------*/
+.select {
+  position: relative;
+  inline-size: 200px;
+  padding-block: 0 10px;
+  padding-inline: 0 10px;
+  margin-block-start: 30px;
+}
+
+.disabled, .disabled + svg.iconSelect {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.select-text {
+  position: relative;
+  font-family: inherit;
+  background-color: transparent;
+  color: var(--primary-text-color);
+  inline-size: 240px;
+  padding-block: 10px;
+  padding-inline: 0 10px;
+  font-size: 18px;
+  border-radius: 0;
+  border: none;
+}
+
+.select option {
+  color: var(--secondary-text-color);
+  background-color: var(--card-bg-color);
+}
+
+/* Remove focus */
+.select-text:focus {
+  outline: none;
+}
+
+  /* Use custom arrow */
+.select .select-text {
+  appearance: none;
+  -webkit-appearance:none;
+  text-overflow: ellipsis;
+  padding-inline-end: 1.1rem;
+}
+
+.iconSelect {
+  position: absolute;
+  inset-block-start: 10px;
+  inset-inline-end: 15px;
+  /* Styling the down arrow */
+  padding: 0;
+  content: '';
+  border-inline-start: 6px solid transparent;
+  border-inline-end: 6px solid transparent;
+  pointer-events: none;
+  color: var(--tertiary-text-color);
+}
+
+.selectTooltip {
+  position: absolute;
+  inset-block-start: -20px;
+  inset-inline-end: 17px;
+}
+
+
+/* LABEL ======================================= */
+.select-label {
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  inset-inline-start: 0;
+  inset-block-start: 10px;
+  transition: 0.2s ease all;
+  color: var(--tertiary-text-color);
+}
+
+/* active state */
+.select-text:focus ~ .select-label, .select-text:valid ~ .select-label {
+  color: var(--accent-color);
+  inset-block-start: -20px;
+  transition: 0.2s ease all;
+  font-size: 14px;
+}
+
+/* BOTTOM BARS ================================= */
+.select-bar {
+  position: relative;
+  display: block;
+  inline-size: 200px;
+}
+
+.select-bar:before, .select-bar:after {
+  content: '';
+  block-size: 2px;
+  inline-size: 0;
+  inset-block-end: 1px;
+  position: absolute;
+  background: var(--accent-color);
+  transition: 0.2s ease all;
+}
+
+.select-bar:before {
+  inset-inline-start: 50%;
+}
+
+.select-bar:after {
+  inset-inline-end: 50%;
+}
+
+/* active state */
+.select-text:focus ~ .select-bar:before, .select-text:focus ~ .select-bar:after {
+  inline-size: 50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.select-highlight {
+  position: absolute;
+  block-size: 60%;
+  inline-size: 100px;
+  inset-block-start: 25%;
+  inset-inline-start: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 1000px) {
+  .select .select-text {
+    max-inline-size: 240px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .select {
+    inline-size: 100%;
+  }
+  .select .select-text {
+    display:block;
+    max-inline-size: 95%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .select {
+    padding: 0px;
+    margin-inline-end: -15px;
+  }
+}
